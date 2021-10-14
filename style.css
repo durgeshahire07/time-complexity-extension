@@ -7,38 +7,36 @@ body {
     height: 300px;
 }
 
-p {
-    /* display: inner-flex;
-    margin: auto 10px;
-    font-size: 22px;
-    color: blue;
-    border-radius: 6px;
-    border: 1px solid lightblue;
-    padding: 10px; */
+#algo-text{
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 10px;
 }
+
 #title-text{
     font-size: 12px;
     text-align: center;
 }
-#algo-text{
-    font-size: 18px;
-    text-align: center;
-}
+
 #sub-title-text{
     color: #5a5a5f;
     text-align: center;
     font-size: 13px;
 }
-#avg-time-comp-text{
+#avg-time-comp-text,
+#best-time-comp-text,
+#worst-time-comp-text{
     text-align: center;
     color: #FFFFFF;
     font-size: 18px;
 }
-#best-time-comp-text{
+#note-text{
+  
   text-align: center;
-  color: #FFFFFF;
-  font-size: 18px;
+  color: #ffffff;
+  font-size: 12px;
 }
+
 hr {
     border: 2px solid #454555;
     border-radius: 2px;
@@ -51,7 +49,7 @@ hr {
     color: #FFFFFF;
     text-align: center;
     font-size: 16px;
-    padding: 10px;
+   
     width: 150px;
     height: 40px;
     transition: all 0.3s;

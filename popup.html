@@ -12,30 +12,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
 
 </head>
-<body style="background-color: rgba(46,46,59,255);">
-    
+<body class="container">
     <h1 id="title-text">Time Complexity</h1>
-    
     <hr>
-    <!-- ALGORITHM NAME -->
-    <p id="algo-text"></p>
-    <!-- BEST TIME COMPLEXITY -->
-    <p id="sub-title-text">Best Time Complexity</p>
-    <p id="best-time-comp-text" class="time-comp-text"></p>
-    <!-- AVERAGE TIME COMPLEXITY -->
-    <p id="sub-title-text">Average Time Complexity</p>
-    <p id="avg-time-comp-text"></p>
-    <!-- WORST TIME COMPLEXITY -->
-    <p id="sub-title-text">Worst Time Complexity</p>
-    <p id="worst-time-comp-text"></p>
+    <div id="loader">
+        <img src="./icons/loading.gif" alt="loading" id="loading-gif">
+    </div>
+    
+    <div id="main-container" style="visibility: hidden;">
+         <!-- ALGORITHM NAME -->
+        <p id="algo-text"></p>
+        <!-- BEST TIME COMPLEXITY -->
+        <p id="sub-title-text">Best Time Complexity</p>
+        <p id="best-time-comp-text" class="time-comp-text"></p>
+        <!-- AVERAGE TIME COMPLEXITY -->
+        <p id="sub-title-text">Average Time Complexity</p>
+        <p id="avg-time-comp-text"></p>
+        <!-- WORST TIME COMPLEXITY -->
+        <p id="sub-title-text">Worst Time Complexity</p>
+        <p id="worst-time-comp-text"></p>
    
         
-    <p id="note-text"></p>
+        <p id="note-text"></p>
    
    
-    <div style="text-align: center;padding-bottom: 50px;padding-top: 20px;">
-        <button class="button" id="next" style="vertical-align:middle"><span>Next </span></button>
+        <div class="button-container">
+            <button class="button" id="next" style=""><span>Next </span></button>
+        </div>
     </div>
+   
    
 </body>
 <script src="script.js"></script>

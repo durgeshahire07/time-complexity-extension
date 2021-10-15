@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/posts';
+const url = 'https://stark-plateau-00189.herokuapp.com/posts';
 
 fetch(url)
 .then(res => res.json())

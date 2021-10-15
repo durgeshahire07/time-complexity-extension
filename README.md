@@ -1,7 +1,9 @@
 # Time-Complexity-Extension
 A browser extension that gives the time complexity of various algorithms randomly on every time you open the extension or click on the Next button while using it.
 
-<img src="./screenshots/img0.png" alt="screenshot" width="40%">
+<p align="center">
+ <img src="./screenshots/img0.png" alt="screenshot" width="40%">
+</p>
 
 ### How to install the unpacked extension in Chrome ?
 

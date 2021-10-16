@@ -1,5 +1,5 @@
 # Time-Complexity-Extension
-A browser extension that gives the time complexity of various algorithms randomly on every time you open the extension or click on the Next button while using it.
+A browser extension that reminds the time complexity of various programming algorithms randomly on every time you open the extension or click on the Next button while using it.
 
 <p align="center">
  <img src="./screenshots/img0.png" alt="screenshot" width="40%">
@@ -23,7 +23,7 @@ A browser extension that gives the time complexity of various algorithms randoml
 
 <img src="./screenshots/img4.png" alt="settings chrome" width="100%">
 
-- Load the folder
+- Navigate to the path where you have cloned the project and load the folder
 
 <img src="./screenshots/img5.png" alt="settings chrome" width="100%">
 
